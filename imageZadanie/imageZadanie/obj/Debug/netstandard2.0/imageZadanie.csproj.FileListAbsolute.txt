@@ -1,0 +1,15 @@
+C:\Users\szaconw\source\repos\imageZadanie\imageZadanie\bin\Debug\netstandard2.0\imageZadanie.deps.json
+C:\Users\szaconw\source\repos\imageZadanie\imageZadanie\bin\Debug\netstandard2.0\imageZadanie.dll
+C:\Users\szaconw\source\repos\imageZadanie\imageZadanie\bin\Debug\netstandard2.0\imageZadanie.pdb
+C:\Users\szaconw\source\repos\imageZadanie\imageZadanie\obj\Debug\netstandard2.0\imageZadanie.csproj.AssemblyReference.cache
+C:\Users\szaconw\source\repos\imageZadanie\imageZadanie\obj\Debug\netstandard2.0\imageZadanie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\szaconw\source\repos\imageZadanie\imageZadanie\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\szaconw\source\repos\imageZadanie\imageZadanie\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\szaconw\source\repos\imageZadanie\imageZadanie\obj\Debug\netstandard2.0\imageZadanie.AssemblyInfoInputs.cache
+C:\Users\szaconw\source\repos\imageZadanie\imageZadanie\obj\Debug\netstandard2.0\imageZadanie.AssemblyInfo.cs
+C:\Users\szaconw\source\repos\imageZadanie\imageZadanie\obj\Debug\netstandard2.0\imageZadanie.csproj.CoreCompileInputs.cache
+C:\Users\szaconw\source\repos\imageZadanie\imageZadanie\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\szaconw\source\repos\imageZadanie\imageZadanie\obj\Debug\netstandard2.0\imageZadanie.dll
+C:\Users\szaconw\source\repos\imageZadanie\imageZadanie\obj\Debug\netstandard2.0\refint\imageZadanie.dll
+C:\Users\szaconw\source\repos\imageZadanie\imageZadanie\obj\Debug\netstandard2.0\imageZadanie.pdb
+C:\Users\szaconw\source\repos\imageZadanie\imageZadanie\obj\Debug\netstandard2.0\ref\imageZadanie.dll

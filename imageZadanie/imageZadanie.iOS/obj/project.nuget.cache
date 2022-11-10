@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "5CwiRGyjMWnFjNU0chECLGutphw4hCCctV1fcYZvo2qAgxgVa+Fm92jR9k6m4txlAtm2BlXuUHL9ClQwlma9MQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\szaconw\\source\\repos\\imageZadanie\\imageZadanie.iOS\\imageZadanie.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\szaconw\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\szaconw\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\szaconw\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

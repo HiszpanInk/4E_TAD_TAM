@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="todo_app.MainPage"
+             Title="Lista zadań">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Dodaj"
+                     Order="Primary" 
+                     Clicked="ToolbarItem_ClickedAdd"
+                     />
+        <ToolbarItem Text="Lista ukończonych"
+                     Order="Secondary" 
+                     Priority="0"
+                     Clicked="ToolbarItem_ClickedFinishedList"
+                     />
+        <ToolbarItem Text="Informacje"
+                     Order="Secondary" 
+                     Priority="1"
+                     />
+
+    </ContentPage.ToolbarItems>
+
+    <ListView x:Name="eventsItemListView" ItemSelected="eventsItemListView_ItemSelected">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <ViewCell.ContextActions>
+                        <MenuItem Text="Edytuj" CommandParameter="{Binding .}" Clicked="MenuItem_ClickedEdit"/>
+                        <MenuItem Text="Ukończ" CommandParameter="{Binding .}" Clicked="MenuItem_ClickedFinished"/>
+                        <MenuItem Text="Usuń" CommandParameter="{Binding .}" Clicked="MenuItem_ClickedDelete"/>
+                    </ViewCell.ContextActions>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="{Binding Subject}" FontSize="Large"/>
+                        <Label Text="{Binding Id}" FontSize="Medium"/>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+
+</ContentPage>

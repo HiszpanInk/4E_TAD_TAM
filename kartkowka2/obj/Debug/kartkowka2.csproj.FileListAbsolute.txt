@@ -1,0 +1,8 @@
+C:\Users\szaconw\source\repos\kartkowka2\bin\Debug\kartkowka2.exe.config
+C:\Users\szaconw\source\repos\kartkowka2\bin\Debug\kartkowka2.exe
+C:\Users\szaconw\source\repos\kartkowka2\bin\Debug\kartkowka2.pdb
+C:\Users\szaconw\source\repos\kartkowka2\obj\Debug\kartkowka2.csproj.AssemblyReference.cache
+C:\Users\szaconw\source\repos\kartkowka2\obj\Debug\kartkowka2.csproj.SuggestedBindingRedirects.cache
+C:\Users\szaconw\source\repos\kartkowka2\obj\Debug\kartkowka2.csproj.CoreCompileInputs.cache
+C:\Users\szaconw\source\repos\kartkowka2\obj\Debug\kartkowka2.exe
+C:\Users\szaconw\source\repos\kartkowka2\obj\Debug\kartkowka2.pdb

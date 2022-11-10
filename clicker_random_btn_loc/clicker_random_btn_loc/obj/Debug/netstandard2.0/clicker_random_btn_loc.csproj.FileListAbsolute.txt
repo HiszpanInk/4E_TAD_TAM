@@ -1,0 +1,15 @@
+C:\Users\szaconw\source\repos\clicker_random_btn_loc\clicker_random_btn_loc\bin\Debug\netstandard2.0\clicker_random_btn_loc.deps.json
+C:\Users\szaconw\source\repos\clicker_random_btn_loc\clicker_random_btn_loc\bin\Debug\netstandard2.0\clicker_random_btn_loc.dll
+C:\Users\szaconw\source\repos\clicker_random_btn_loc\clicker_random_btn_loc\bin\Debug\netstandard2.0\clicker_random_btn_loc.pdb
+C:\Users\szaconw\source\repos\clicker_random_btn_loc\clicker_random_btn_loc\obj\Debug\netstandard2.0\clicker_random_btn_loc.csproj.AssemblyReference.cache
+C:\Users\szaconw\source\repos\clicker_random_btn_loc\clicker_random_btn_loc\obj\Debug\netstandard2.0\clicker_random_btn_loc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\szaconw\source\repos\clicker_random_btn_loc\clicker_random_btn_loc\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\szaconw\source\repos\clicker_random_btn_loc\clicker_random_btn_loc\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\szaconw\source\repos\clicker_random_btn_loc\clicker_random_btn_loc\obj\Debug\netstandard2.0\clicker_random_btn_loc.AssemblyInfoInputs.cache
+C:\Users\szaconw\source\repos\clicker_random_btn_loc\clicker_random_btn_loc\obj\Debug\netstandard2.0\clicker_random_btn_loc.AssemblyInfo.cs
+C:\Users\szaconw\source\repos\clicker_random_btn_loc\clicker_random_btn_loc\obj\Debug\netstandard2.0\clicker_random_btn_loc.csproj.CoreCompileInputs.cache
+C:\Users\szaconw\source\repos\clicker_random_btn_loc\clicker_random_btn_loc\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\szaconw\source\repos\clicker_random_btn_loc\clicker_random_btn_loc\obj\Debug\netstandard2.0\clicker_random_btn_loc.dll
+C:\Users\szaconw\source\repos\clicker_random_btn_loc\clicker_random_btn_loc\obj\Debug\netstandard2.0\refint\clicker_random_btn_loc.dll
+C:\Users\szaconw\source\repos\clicker_random_btn_loc\clicker_random_btn_loc\obj\Debug\netstandard2.0\clicker_random_btn_loc.pdb
+C:\Users\szaconw\source\repos\clicker_random_btn_loc\clicker_random_btn_loc\obj\Debug\netstandard2.0\ref\clicker_random_btn_loc.dll

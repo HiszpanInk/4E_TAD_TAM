@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z+QGGY60gfod1wHxWBzcH+HfC9f/kgXvZERoThRIzS4eu1QJtdRyD2QLBMQXYylzzV68XqJU5/yLJAGCQhjNyA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\szaconw\\source\\repos\\kartkowka_mobilne_1_1\\kartkowka_mobilne_1_1.iOS\\kartkowka_mobilne_1_1.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\szaconw\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\szaconw\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\szaconw\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "tabliczka_mnozenia_WPF_Style_02_11/1.0.0": {
+        "runtime": {
+          "tabliczka_mnozenia_WPF_Style_02_11.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "tabliczka_mnozenia_WPF_Style_02_11/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

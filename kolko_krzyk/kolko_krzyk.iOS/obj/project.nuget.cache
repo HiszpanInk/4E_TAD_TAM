@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "dl4EEagMSXKfoPwBk8Cl3uGlPUZZCrwk1QU2UDgMBC4N3IxiqEuDAar0lJfEbLTHJs61vygJHegZYhx6aJ5i3w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\szaconw\\source\\repos\\kolko_krzyk\\kolko_krzyk.iOS\\kolko_krzyk.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\szaconw\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\szaconw\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\szaconw\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

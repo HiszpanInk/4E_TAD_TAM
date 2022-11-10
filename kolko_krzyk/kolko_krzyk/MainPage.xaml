@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="kolko_krzyk.MainPage">
+
+    <StackLayout>
+        <Label x:Name="wynik" Text="O: 0 - 0:X" FontSize="42" Padding="20" Margin="0, 0, 0, 100" HorizontalOptions="CenterAndExpand" />
+        <Label x:Name="runda" Text="Startuje O" FontSize="42" Padding="20" Margin="0, 0, 0, 30" HorizontalOptions="CenterAndExpand" />
+       
+        <Grid x:Name="plansza" VerticalOptions="StartAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="125"/>
+                <RowDefinition Height="125"/>
+                <RowDefinition Height="125"/>
+            </Grid.RowDefinitions>
+        </Grid>
+    </StackLayout>
+    
+
+</ContentPage>

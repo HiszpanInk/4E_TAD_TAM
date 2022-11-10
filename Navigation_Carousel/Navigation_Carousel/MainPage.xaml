@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navigation_Carousel.MainPage"
+             Title="Menu">
+
+    <!--wersja na egzamin
+    <ContentPage>
+        <StackLayout VerticalOptions="Center">
+            <Label Text="Pochita" FontSize="Large" />
+            <Image Source="https://cdn.myanimelist.net/images/characters/10/488467.jpg" />
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <StackLayout VerticalOptions="Center">
+            <Label Text="Denji" FontSize="Large" />
+            <Image Source="https://cdn.myanimelist.net/images/characters/13/461993.jpg" />
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <StackLayout VerticalOptions="Center">
+            <Label Text="Makima" FontSize="Large" />
+            <Image Source="https://cdn.myanimelist.net/images/characters/4/489561.jpg" />
+        </StackLayout>
+    </ContentPage>
+    -->
+    <CarouselPage.ItemTemplate>
+        <DataTemplate>
+            <ContentPage>
+                <StackLayout VerticalOptions="Center">
+                    <Label Text="{Binding Name}" 
+                           FontSize="Large"
+                           HorizontalOptions="Center"
+                           />
+                    <Image Source="{Binding ImageURL}" HeightRequest="300" WidthRequest="300" />
+                </StackLayout>
+            </ContentPage>
+        </DataTemplate>
+    </CarouselPage.ItemTemplate>
+    
+</CarouselPage>

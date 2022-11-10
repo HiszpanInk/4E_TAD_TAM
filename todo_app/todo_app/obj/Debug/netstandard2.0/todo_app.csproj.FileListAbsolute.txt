@@ -1,0 +1,17 @@
+C:\Users\szaconw\source\repos\todo_app\todo_app\bin\Debug\netstandard2.0\todo_app.deps.json
+C:\Users\szaconw\source\repos\todo_app\todo_app\bin\Debug\netstandard2.0\todo_app.dll
+C:\Users\szaconw\source\repos\todo_app\todo_app\bin\Debug\netstandard2.0\todo_app.pdb
+C:\Users\szaconw\source\repos\todo_app\todo_app\obj\Debug\netstandard2.0\todo_app.csproj.AssemblyReference.cache
+C:\Users\szaconw\source\repos\todo_app\todo_app\obj\Debug\netstandard2.0\todo_app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\szaconw\source\repos\todo_app\todo_app\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\szaconw\source\repos\todo_app\todo_app\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\szaconw\source\repos\todo_app\todo_app\obj\Debug\netstandard2.0\todo_app.AssemblyInfoInputs.cache
+C:\Users\szaconw\source\repos\todo_app\todo_app\obj\Debug\netstandard2.0\todo_app.AssemblyInfo.cs
+C:\Users\szaconw\source\repos\todo_app\todo_app\obj\Debug\netstandard2.0\todo_app.csproj.CoreCompileInputs.cache
+C:\Users\szaconw\source\repos\todo_app\todo_app\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\szaconw\source\repos\todo_app\todo_app\obj\Debug\netstandard2.0\todo_app.dll
+C:\Users\szaconw\source\repos\todo_app\todo_app\obj\Debug\netstandard2.0\refint\todo_app.dll
+C:\Users\szaconw\source\repos\todo_app\todo_app\obj\Debug\netstandard2.0\todo_app.pdb
+C:\Users\szaconw\source\repos\todo_app\todo_app\obj\Debug\netstandard2.0\ref\todo_app.dll
+C:\Users\szaconw\source\repos\todo_app\todo_app\obj\Debug\netstandard2.0\pages\AddEditPage.xaml.g.cs
+C:\Users\szaconw\source\repos\todo_app\todo_app\obj\Debug\netstandard2.0\pages\DoneList.xaml.g.cs

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="memory.MainPage">
+
+    
+    <StackLayout>
+<!--
+        <StackLayout x:Name="Start">
+            
+            <Label x:Name="komunikat" Text="" />
+            <Entry x:Name="x_entry" Text="" Placeholder="Ilość kolumn"/>
+            <Entry x:Name="y_entry" Text="" Placeholder="Ilość wierszy"/>
+            <Button Text="Zacznij grę" Clicked="Button_Clicked_Start" />
+        </StackLayout>
+-->
+        <StackLayout x:Name="Start">
+            <Label x:Name="komunikat" Text="" />
+        </StackLayout>
+        <Grid x:Name="plansza" VerticalOptions="StartAndExpand" Margin="0,50,0,0" IsVisible="False">
+            <Grid.RowDefinitions>
+                <!--"<RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>-->
+            </Grid.RowDefinitions>
+        </Grid>
+        
+    </StackLayout>
+
+</ContentPage>

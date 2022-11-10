@@ -1,0 +1,31 @@
+﻿<Application x:Class="tabliczka_mnozenia_WPF_Style_02_11.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:tabliczka_mnozenia_WPF_Style_02_11"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="FontStyle" Value="Italic"/>
+            <Setter Property="Background" Value="Gray"/>
+
+
+        </Style>
+
+        <Style TargetType="{x:Type Label}" x:Key="defaultLabel">
+            <Setter Property="HorizontalContentAlignment" Value="Center" />
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+            <Setter Property="Visibility" Value="Hidden" />
+        </Style>
+
+        <Style TargetType="{x:Type Label}" x:Key="showedLabel">
+            <Setter Property="HorizontalContentAlignment" Value="Center" />
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+            <Setter Property="Visibility" Value="Visible" />
+        </Style>
+
+        <Style TargetType="{x:Type Button}" x:Key="resetButton">
+            <Setter Property="Background" Value="Azure"/>
+        </Style>
+
+    </Application.Resources>
+</Application>

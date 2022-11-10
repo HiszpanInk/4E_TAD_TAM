@@ -1,0 +1,8 @@
+C:\Users\szaconw\source\repos\ListApp\ListApp\bin\Debug\ListApp.exe.config
+C:\Users\szaconw\source\repos\ListApp\ListApp\bin\Debug\ListApp.exe
+C:\Users\szaconw\source\repos\ListApp\ListApp\bin\Debug\ListApp.pdb
+C:\Users\szaconw\source\repos\ListApp\ListApp\obj\Debug\ListApp.csproj.AssemblyReference.cache
+C:\Users\szaconw\source\repos\ListApp\ListApp\obj\Debug\ListApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\szaconw\source\repos\ListApp\ListApp\obj\Debug\ListApp.csproj.CoreCompileInputs.cache
+C:\Users\szaconw\source\repos\ListApp\ListApp\obj\Debug\ListApp.exe
+C:\Users\szaconw\source\repos\ListApp\ListApp\obj\Debug\ListApp.pdb

@@ -1,0 +1,17 @@
+C:\Users\szaconw\source\repos\Navigation_TabbedPages\Navigation_TabbedPages\bin\Debug\netstandard2.0\Navigation_TabbedPages.deps.json
+C:\Users\szaconw\source\repos\Navigation_TabbedPages\Navigation_TabbedPages\bin\Debug\netstandard2.0\Navigation_TabbedPages.dll
+C:\Users\szaconw\source\repos\Navigation_TabbedPages\Navigation_TabbedPages\bin\Debug\netstandard2.0\Navigation_TabbedPages.pdb
+C:\Users\szaconw\source\repos\Navigation_TabbedPages\Navigation_TabbedPages\obj\Debug\netstandard2.0\Navigation_TabbedPages.csproj.AssemblyReference.cache
+C:\Users\szaconw\source\repos\Navigation_TabbedPages\Navigation_TabbedPages\obj\Debug\netstandard2.0\Navigation_TabbedPages.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\szaconw\source\repos\Navigation_TabbedPages\Navigation_TabbedPages\obj\Debug\netstandard2.0\About.xaml.g.cs
+C:\Users\szaconw\source\repos\Navigation_TabbedPages\Navigation_TabbedPages\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\szaconw\source\repos\Navigation_TabbedPages\Navigation_TabbedPages\obj\Debug\netstandard2.0\Courses.xaml.g.cs
+C:\Users\szaconw\source\repos\Navigation_TabbedPages\Navigation_TabbedPages\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\szaconw\source\repos\Navigation_TabbedPages\Navigation_TabbedPages\obj\Debug\netstandard2.0\Navigation_TabbedPages.AssemblyInfoInputs.cache
+C:\Users\szaconw\source\repos\Navigation_TabbedPages\Navigation_TabbedPages\obj\Debug\netstandard2.0\Navigation_TabbedPages.AssemblyInfo.cs
+C:\Users\szaconw\source\repos\Navigation_TabbedPages\Navigation_TabbedPages\obj\Debug\netstandard2.0\Navigation_TabbedPages.csproj.CoreCompileInputs.cache
+C:\Users\szaconw\source\repos\Navigation_TabbedPages\Navigation_TabbedPages\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\szaconw\source\repos\Navigation_TabbedPages\Navigation_TabbedPages\obj\Debug\netstandard2.0\Navigation_TabbedPages.dll
+C:\Users\szaconw\source\repos\Navigation_TabbedPages\Navigation_TabbedPages\obj\Debug\netstandard2.0\refint\Navigation_TabbedPages.dll
+C:\Users\szaconw\source\repos\Navigation_TabbedPages\Navigation_TabbedPages\obj\Debug\netstandard2.0\Navigation_TabbedPages.pdb
+C:\Users\szaconw\source\repos\Navigation_TabbedPages\Navigation_TabbedPages\obj\Debug\netstandard2.0\ref\Navigation_TabbedPages.dll

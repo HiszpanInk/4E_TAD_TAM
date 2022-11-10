@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="clicker_random_btn_loc.MainPage">
+
+    <StackLayout>
+        <Grid x:Name="top">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Column="0" x:Name="counter" Text="Wynik: 0" HorizontalTextAlignment="Center" />
+            <Label Grid.Column="1" x:Name="time" Text="Czas: 10" HorizontalTextAlignment="Center"/>
+        </Grid>
+        
+        <Grid x:Name="plansza">
+        
+            
+        </Grid>
+    </StackLayout>
+
+</ContentPage>

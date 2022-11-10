@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="navigation_One.About"
+             Title="About">
+    <ContentPage.Content>
+        
+        <StackLayout>
+            <StackLayout.GestureRecognizers>
+                <SwipeGestureRecognizer 
+                    Direction="Right"
+                    Swiped="SwipeGestureRecognizer_Swiped"
+                    />
+            </StackLayout.GestureRecognizers>
+            
+            <Label Text="Welcome to About"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

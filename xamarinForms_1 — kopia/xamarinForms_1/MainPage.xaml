@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="xamarinForms_1.MainPage">
+
+    <StackLayout>
+        <!--BindingContext wskazuje z którego obiektu pobieramy dane-->
+        <Label Text="Lorem ipsum dolor sit amet" 
+               BindingContext="{x:Reference slider}"
+               Rotation="{Binding Value}"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               FontSize="Large"
+               x:Name="rotatingLabel"
+               />
+        <Slider Maximum="360"
+                MinimumTrackColor="Green"
+                MaximumTrackColor="Blue"
+                ThumbColor="Red"
+                Margin="20"
+                x:Name="slider"
+                />
+        <!--ValueChanged="Slider_ValueChanged"-->
+        
+        <!--format tam tylko jest dodatkowo, formatuje tekst, F0 oznacza że będzie wyświetlane zero miejsc po przecinku-->
+        <Label 
+                BindingContext="{x:Reference slider}"
+                Text="{Binding Value, StringFormat='Obrót wynosi {0:F0} stopni'}"   
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                x:Name="sliderValue"
+                FontSize="Large"
+               />
+
+    </StackLayout>
+    <!--
+    <Grid>
+        <Button HorizontalOptions="Center"
+                VerticalOptions="Center" 
+                Text="Kliknij mnie"
+                Clicked="Button_Clicked"
+                />
+    </Grid>-->
+
+</ContentPage>

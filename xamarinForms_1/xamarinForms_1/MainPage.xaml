@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="xamarinForms_1.MainPage">
+
+    <StackLayout>
+        <!--BindingContext wskazuje z którego obiektu pobieramy dane-->
+        <Label Text="" 
+               BindingContext="{x:Reference slider}"
+               FontSize="{Binding Value}"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               x:Name="mainLabel"
+               />
+        <Button 
+            Text="Następny"
+            Clicked="Button_Clicked"
+            />
+        <Slider 
+               
+                Maximum="50"
+                Minimum="20"
+                MinimumTrackColor="Green"
+                MaximumTrackColor="Blue"
+                ThumbColor="Red"
+                Margin="20"
+                x:Name="slider"
+                />
+        <Button 
+            Clicked="red"
+            BackgroundColor="Red" />
+        <Button 
+            Clicked="green"
+            BackgroundColor="green" />
+        <Button 
+            Clicked="blue"
+            BackgroundColor="blue" />
+        <Button 
+            Clicked="black"
+            BackgroundColor="black" />
+    </StackLayout>
+
+
+</ContentPage>

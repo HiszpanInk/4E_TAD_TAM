@@ -1,0 +1,15 @@
+C:\Users\szaconw\source\repos\kolko_krzyk\kolko_krzyk\obj\Debug\netstandard2.0\kolko_krzyk.csproj.AssemblyReference.cache
+C:\Users\szaconw\source\repos\kolko_krzyk\kolko_krzyk\obj\Debug\netstandard2.0\kolko_krzyk.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\szaconw\source\repos\kolko_krzyk\kolko_krzyk\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\szaconw\source\repos\kolko_krzyk\kolko_krzyk\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\szaconw\source\repos\kolko_krzyk\kolko_krzyk\obj\Debug\netstandard2.0\kolko_krzyk.AssemblyInfoInputs.cache
+C:\Users\szaconw\source\repos\kolko_krzyk\kolko_krzyk\obj\Debug\netstandard2.0\kolko_krzyk.AssemblyInfo.cs
+C:\Users\szaconw\source\repos\kolko_krzyk\kolko_krzyk\obj\Debug\netstandard2.0\kolko_krzyk.csproj.CoreCompileInputs.cache
+C:\Users\szaconw\source\repos\kolko_krzyk\kolko_krzyk\bin\Debug\netstandard2.0\kolko_krzyk.deps.json
+C:\Users\szaconw\source\repos\kolko_krzyk\kolko_krzyk\bin\Debug\netstandard2.0\kolko_krzyk.dll
+C:\Users\szaconw\source\repos\kolko_krzyk\kolko_krzyk\bin\Debug\netstandard2.0\kolko_krzyk.pdb
+C:\Users\szaconw\source\repos\kolko_krzyk\kolko_krzyk\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\szaconw\source\repos\kolko_krzyk\kolko_krzyk\obj\Debug\netstandard2.0\kolko_krzyk.dll
+C:\Users\szaconw\source\repos\kolko_krzyk\kolko_krzyk\obj\Debug\netstandard2.0\refint\kolko_krzyk.dll
+C:\Users\szaconw\source\repos\kolko_krzyk\kolko_krzyk\obj\Debug\netstandard2.0\kolko_krzyk.pdb
+C:\Users\szaconw\source\repos\kolko_krzyk\kolko_krzyk\obj\Debug\netstandard2.0\ref\kolko_krzyk.dll

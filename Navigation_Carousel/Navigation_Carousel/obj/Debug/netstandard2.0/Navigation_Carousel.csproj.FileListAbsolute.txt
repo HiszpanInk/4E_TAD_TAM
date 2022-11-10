@@ -1,0 +1,17 @@
+C:\Users\szaconw\source\repos\Navigation_Carousel\Navigation_Carousel\bin\Debug\netstandard2.0\Navigation_Carousel.deps.json
+C:\Users\szaconw\source\repos\Navigation_Carousel\Navigation_Carousel\bin\Debug\netstandard2.0\Navigation_Carousel.dll
+C:\Users\szaconw\source\repos\Navigation_Carousel\Navigation_Carousel\bin\Debug\netstandard2.0\Navigation_Carousel.pdb
+C:\Users\szaconw\source\repos\Navigation_Carousel\Navigation_Carousel\obj\Debug\netstandard2.0\Navigation_Carousel.csproj.AssemblyReference.cache
+C:\Users\szaconw\source\repos\Navigation_Carousel\Navigation_Carousel\obj\Debug\netstandard2.0\Navigation_Carousel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\szaconw\source\repos\Navigation_Carousel\Navigation_Carousel\obj\Debug\netstandard2.0\About.xaml.g.cs
+C:\Users\szaconw\source\repos\Navigation_Carousel\Navigation_Carousel\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\szaconw\source\repos\Navigation_Carousel\Navigation_Carousel\obj\Debug\netstandard2.0\Courses.xaml.g.cs
+C:\Users\szaconw\source\repos\Navigation_Carousel\Navigation_Carousel\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\szaconw\source\repos\Navigation_Carousel\Navigation_Carousel\obj\Debug\netstandard2.0\Navigation_Carousel.AssemblyInfoInputs.cache
+C:\Users\szaconw\source\repos\Navigation_Carousel\Navigation_Carousel\obj\Debug\netstandard2.0\Navigation_Carousel.AssemblyInfo.cs
+C:\Users\szaconw\source\repos\Navigation_Carousel\Navigation_Carousel\obj\Debug\netstandard2.0\Navigation_Carousel.csproj.CoreCompileInputs.cache
+C:\Users\szaconw\source\repos\Navigation_Carousel\Navigation_Carousel\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\szaconw\source\repos\Navigation_Carousel\Navigation_Carousel\obj\Debug\netstandard2.0\Navigation_Carousel.dll
+C:\Users\szaconw\source\repos\Navigation_Carousel\Navigation_Carousel\obj\Debug\netstandard2.0\refint\Navigation_Carousel.dll
+C:\Users\szaconw\source\repos\Navigation_Carousel\Navigation_Carousel\obj\Debug\netstandard2.0\Navigation_Carousel.pdb
+C:\Users\szaconw\source\repos\Navigation_Carousel\Navigation_Carousel\obj\Debug\netstandard2.0\ref\Navigation_Carousel.dll

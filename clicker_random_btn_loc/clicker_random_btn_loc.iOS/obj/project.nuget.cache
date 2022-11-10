@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "2pg1LuXjPNEil4Kn5IFzyWI4/x0ZY/YXorV44I9AKyFiDsMGM1bo3T/4xcqQIYAYSl883+knYdy/oR9wM4qhpA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\szaconw\\source\\repos\\clicker_random_btn_loc\\clicker_random_btn_loc.iOS\\clicker_random_btn_loc.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\szaconw\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\szaconw\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\szaconw\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

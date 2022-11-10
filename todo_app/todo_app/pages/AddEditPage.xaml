@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="todo_app.pages.AddEditPage"
+             x:Name="AddEdit">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="subjectEntry" Keyboard="Text" ReturnType="Next" Placeholder="Temat"/>
+            <Editor x:Name="infoEditor" Keyboard="Text" AutoSize="TextChanges" />
+            <Button x:Name="button" Text="Zatwierdź" Clicked="button_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

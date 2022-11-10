@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navigation_MasterMenu.FlyoutMenuPage"
+             Title="FlyoutMenu"
+             xmlns:local="clr-namespace:Navigation_MasterMenu">
+
+    <StackLayout>
+        <!-- x:FieldModifier tutaj sprawia że dana tutaj zmienna będzie dostępna w kodzie C# również w innych stronach (a nie tylko tej strony tutaj)-->
+        <ListView x:Name="list" x:FieldModifier="public">
+            <ListView.ItemsSource>
+                <x:Array Type="{x:Type local:FlyoutItemPage}">
+                    <local:FlyoutItemPage Title="Home" IconSource="https://img.icons8.com/ios/344/home--v1.png" TargetPage="{x:Type local:Home}" />
+                    <local:FlyoutItemPage Title="Courses" IconSource="https://img.icons8.com/external-others-phat-plus/452/external-courses-online-courses-outline-others-phat-plus-22.png" TargetPage="{x:Type local:Courses}" />
+                    <local:FlyoutItemPage Title="About" IconSource="https://img.icons8.com/ios/344/about.png" TargetPage="{x:Type local:About}" />
+                    <local:FlyoutItemPage Title="Logout" IconSource="https://img.icons8.com/ios/344/exit.png" TargetPage="{x:Type local:Logout}" />
+                </x:Array>
+            </ListView.ItemsSource>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid ColumnDefinitions="33, *">
+                            <Image Source="{Binding IconSource}" Grid.Column="0"/>
+                            <Label Text="{Binding Title}" Grid.Column="1" />
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

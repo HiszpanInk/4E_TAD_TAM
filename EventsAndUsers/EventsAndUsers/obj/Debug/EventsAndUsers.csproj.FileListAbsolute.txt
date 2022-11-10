@@ -1,0 +1,8 @@
+C:\Users\szaconw\source\repos\EventsAndUsers\EventsAndUsers\bin\Debug\EventsAndUsers.exe.config
+C:\Users\szaconw\source\repos\EventsAndUsers\EventsAndUsers\bin\Debug\EventsAndUsers.exe
+C:\Users\szaconw\source\repos\EventsAndUsers\EventsAndUsers\bin\Debug\EventsAndUsers.pdb
+C:\Users\szaconw\source\repos\EventsAndUsers\EventsAndUsers\obj\Debug\EventsAndUsers.csproj.AssemblyReference.cache
+C:\Users\szaconw\source\repos\EventsAndUsers\EventsAndUsers\obj\Debug\EventsAndUsers.csproj.SuggestedBindingRedirects.cache
+C:\Users\szaconw\source\repos\EventsAndUsers\EventsAndUsers\obj\Debug\EventsAndUsers.csproj.CoreCompileInputs.cache
+C:\Users\szaconw\source\repos\EventsAndUsers\EventsAndUsers\obj\Debug\EventsAndUsers.exe
+C:\Users\szaconw\source\repos\EventsAndUsers\EventsAndUsers\obj\Debug\EventsAndUsers.pdb

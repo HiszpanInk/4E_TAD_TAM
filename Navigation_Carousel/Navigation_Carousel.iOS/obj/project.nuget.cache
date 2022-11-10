@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "QME6ytB5ulkpVbJrfIglDmlbiOtrHjJuSZztCtmXB9xRAHRYHoegbY51nsE2cvWaIr55C9p29tUiRt06udpBWg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\szaconw\\source\\repos\\Navigation_Carousel\\Navigation_Carousel.iOS\\Navigation_Carousel.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\szaconw\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\szaconw\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\szaconw\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

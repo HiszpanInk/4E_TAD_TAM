@@ -1,0 +1,8 @@
+C:\Users\uczen\source\repos\aplikacja_bankowa\aplikacja_bankowa\bin\Debug\aplikacja_bankowa.exe.config
+C:\Users\uczen\source\repos\aplikacja_bankowa\aplikacja_bankowa\bin\Debug\aplikacja_bankowa.exe
+C:\Users\uczen\source\repos\aplikacja_bankowa\aplikacja_bankowa\bin\Debug\aplikacja_bankowa.pdb
+C:\Users\uczen\source\repos\aplikacja_bankowa\aplikacja_bankowa\obj\Debug\aplikacja_bankowa.csproj.AssemblyReference.cache
+C:\Users\uczen\source\repos\aplikacja_bankowa\aplikacja_bankowa\obj\Debug\aplikacja_bankowa.csproj.SuggestedBindingRedirects.cache
+C:\Users\uczen\source\repos\aplikacja_bankowa\aplikacja_bankowa\obj\Debug\aplikacja_bankowa.csproj.CoreCompileInputs.cache
+C:\Users\uczen\source\repos\aplikacja_bankowa\aplikacja_bankowa\obj\Debug\aplikacja_bankowa.exe
+C:\Users\uczen\source\repos\aplikacja_bankowa\aplikacja_bankowa\obj\Debug\aplikacja_bankowa.pdb

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "8dHnyNfKoLdyD+DQKPDXw9GkdBhjb2xI2NA8393VwYlBLmnT0ZkOY9QAVvBL9Wd1lXvRUEAotEIeR7O65Cn67A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\szaconw\\source\\repos\\navigation_One\\navigation_One.iOS\\navigation_One.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\szaconw\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\szaconw\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\szaconw\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

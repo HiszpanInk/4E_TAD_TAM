@@ -1,0 +1,17 @@
+C:\Users\szaconw\source\repos\navigation_One\navigation_One\bin\Debug\netstandard2.0\navigation_One.deps.json
+C:\Users\szaconw\source\repos\navigation_One\navigation_One\bin\Debug\netstandard2.0\navigation_One.dll
+C:\Users\szaconw\source\repos\navigation_One\navigation_One\bin\Debug\netstandard2.0\navigation_One.pdb
+C:\Users\szaconw\source\repos\navigation_One\navigation_One\obj\Debug\netstandard2.0\navigation_One.csproj.AssemblyReference.cache
+C:\Users\szaconw\source\repos\navigation_One\navigation_One\obj\Debug\netstandard2.0\navigation_One.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\szaconw\source\repos\navigation_One\navigation_One\obj\Debug\netstandard2.0\About.xaml.g.cs
+C:\Users\szaconw\source\repos\navigation_One\navigation_One\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\szaconw\source\repos\navigation_One\navigation_One\obj\Debug\netstandard2.0\Courses.xaml.g.cs
+C:\Users\szaconw\source\repos\navigation_One\navigation_One\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\szaconw\source\repos\navigation_One\navigation_One\obj\Debug\netstandard2.0\navigation_One.AssemblyInfoInputs.cache
+C:\Users\szaconw\source\repos\navigation_One\navigation_One\obj\Debug\netstandard2.0\navigation_One.AssemblyInfo.cs
+C:\Users\szaconw\source\repos\navigation_One\navigation_One\obj\Debug\netstandard2.0\navigation_One.csproj.CoreCompileInputs.cache
+C:\Users\szaconw\source\repos\navigation_One\navigation_One\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\szaconw\source\repos\navigation_One\navigation_One\obj\Debug\netstandard2.0\navigation_One.dll
+C:\Users\szaconw\source\repos\navigation_One\navigation_One\obj\Debug\netstandard2.0\refint\navigation_One.dll
+C:\Users\szaconw\source\repos\navigation_One\navigation_One\obj\Debug\netstandard2.0\navigation_One.pdb
+C:\Users\szaconw\source\repos\navigation_One\navigation_One\obj\Debug\netstandard2.0\ref\navigation_One.dll
