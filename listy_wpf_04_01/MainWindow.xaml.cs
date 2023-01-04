@@ -32,9 +32,10 @@ namespace listy_wpf_04_01
             ListOfNames.Add(new PersonData("Sit", 20, "sit@sit.pl"));
             ListOfNames.Add(new PersonData("Amet", 20, "amet@amet.pl"));
 
-            ListaImion.ItemsSource = ListOfNames;
+            dataGridOfPeople.ItemsSource = ListOfNames;
+            //ListaImion.ItemsSource = ListOfNames;
         }
-
+        /*
         private void ListBox_Selected(object sender, RoutedEventArgs e)
         {
             //MessageBox.Show(ListaImion.SelectedIndex.ToString());
@@ -83,6 +84,6 @@ namespace listy_wpf_04_01
             
             view.SortDescriptions.Clear();
             view.SortDescriptions.Add(new SortDescription(columnNameToSort, howToSort));
-        }
+        }*/
     }
 }

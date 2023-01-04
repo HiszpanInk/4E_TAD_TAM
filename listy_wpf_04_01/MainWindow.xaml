@@ -6,8 +6,15 @@
         xmlns:local="clr-namespace:listy_wpf_04_01"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="400">
-
     <StackPanel>
+        <DataGrid x:Name="dataGridOfPeople" CanUserAddRows="True">
+            
+        </DataGrid>
+    </StackPanel>
+    <!--
+    <StackPanel>
+        -->
+        <!--
         <WrapPanel>
             <TextBox Width="100" x:Name="NameToAdd" />
             <TextBox Width="50" x:Name="AgeToAdd" />
@@ -48,16 +55,7 @@
                     </GridView.Columns>
                 </GridView>
             </ListView.View>
-            <!--
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <WrapPanel>
-                        <TextBlock Text="{Binding}" />
-                        <Label>Opis</Label>
-                    </WrapPanel>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-            -->
+
             <ListView.ItemContainerStyle>
                 <Style TargetType="{x:Type ListViewItem}">
                     <Setter Property="Padding" Value="5" />
@@ -76,6 +74,9 @@
             </ListView.ItemContainerStyle>
         </ListView>
         <Button Content="Usuń zaznaczony element" Click="Button_Click_1" />
+        
+        -->
+        
         <!--
         <WrapPanel>
             <TextBox Width="100" x:Name="NameToAdd" />
@@ -145,5 +146,7 @@
     </ListBox>
 
         <Button Content="Usuń zaznaczony element" Click="Button_Click_1" /> -->
-    </StackPanel>
+<!--    
+</StackPanel>
+    -->
 </Window>
