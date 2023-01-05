@@ -1,0 +1,15 @@
+C:\Users\szaconw\source\repos\xamarin_collection_view_05_01\xamarin_collection_view_05_01\bin\Debug\netstandard2.0\xamarin_collection_view_05_01.deps.json
+C:\Users\szaconw\source\repos\xamarin_collection_view_05_01\xamarin_collection_view_05_01\bin\Debug\netstandard2.0\xamarin_collection_view_05_01.dll
+C:\Users\szaconw\source\repos\xamarin_collection_view_05_01\xamarin_collection_view_05_01\bin\Debug\netstandard2.0\xamarin_collection_view_05_01.pdb
+C:\Users\szaconw\source\repos\xamarin_collection_view_05_01\xamarin_collection_view_05_01\obj\Debug\netstandard2.0\xamarin_collection_view_05_01.csproj.AssemblyReference.cache
+C:\Users\szaconw\source\repos\xamarin_collection_view_05_01\xamarin_collection_view_05_01\obj\Debug\netstandard2.0\xamarin_collection_view_05_01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\szaconw\source\repos\xamarin_collection_view_05_01\xamarin_collection_view_05_01\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\szaconw\source\repos\xamarin_collection_view_05_01\xamarin_collection_view_05_01\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\szaconw\source\repos\xamarin_collection_view_05_01\xamarin_collection_view_05_01\obj\Debug\netstandard2.0\xamarin_collection_view_05_01.AssemblyInfoInputs.cache
+C:\Users\szaconw\source\repos\xamarin_collection_view_05_01\xamarin_collection_view_05_01\obj\Debug\netstandard2.0\xamarin_collection_view_05_01.AssemblyInfo.cs
+C:\Users\szaconw\source\repos\xamarin_collection_view_05_01\xamarin_collection_view_05_01\obj\Debug\netstandard2.0\xamarin_collection_view_05_01.csproj.CoreCompileInputs.cache
+C:\Users\szaconw\source\repos\xamarin_collection_view_05_01\xamarin_collection_view_05_01\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\szaconw\source\repos\xamarin_collection_view_05_01\xamarin_collection_view_05_01\obj\Debug\netstandard2.0\xamarin_collection_view_05_01.dll
+C:\Users\szaconw\source\repos\xamarin_collection_view_05_01\xamarin_collection_view_05_01\obj\Debug\netstandard2.0\refint\xamarin_collection_view_05_01.dll
+C:\Users\szaconw\source\repos\xamarin_collection_view_05_01\xamarin_collection_view_05_01\obj\Debug\netstandard2.0\xamarin_collection_view_05_01.pdb
+C:\Users\szaconw\source\repos\xamarin_collection_view_05_01\xamarin_collection_view_05_01\obj\Debug\netstandard2.0\ref\xamarin_collection_view_05_01.dll

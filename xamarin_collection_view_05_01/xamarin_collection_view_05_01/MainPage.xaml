@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="xamarin_collection_view_05_01.MainPage">
+
+    <StackLayout>
+        <SearchBar Placeholder="Wyszukaj film" x:Name="searchBar" TextChanged="searchBar_TextChanged" />
+        <CollectionView x:Name="myCollectionView"
+                        SelectionMode="Multiple"
+                        SelectionChanged="myCollectionView_SelectionChanged">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <SwipeView>
+                        <SwipeView.RightItems>
+                            <SwipeItems>
+                                <SwipeItem Text="Usuń"
+                               BackgroundColor="Red"
+                               IconImageSource="https://img.icons8.com/ios/512/trash.png"
+                               Invoked="SwipeItem_Invoked" />
+                                <SwipeItem Text="Edytuj"
+                               BackgroundColor="Green"
+                               IconImageSource="https://img.icons8.com/ios-glyphs/512/pencil.png"
+                               Invoked="SwipeItem_Invoked_1" />
+                            </SwipeItems>
+                        </SwipeView.RightItems>
+                        <SwipeView.LeftItems>
+                            <SwipeItems Mode="Execute">
+                                <SwipeItem Text="Ulubione"
+                                           BackgroundColor="Yellow"
+                                           Invoked="SwipeItem_Invoked_2" />
+                            </SwipeItems>
+                        </SwipeView.LeftItems>
+                        <StackLayout>
+                            <Grid Padding="10"
+                              RowDefinitions="auto,auto"
+                              ColumnDefinitions="auto,auto">
+                                <Image Grid.RowSpan="2"
+                               Source="{Binding Zdjecie}" 
+                               Aspect="AspectFill"
+                               HeightRequest="50"
+                               WidthRequest="50"/>
+                                <Label Grid.Column="1"
+                               Text="{Binding Nazwa}" 
+                               FontAttributes="Bold"/>
+                                <Label Grid.Column="1"
+                               Grid.Row="1"
+                               Text="{Binding Kategoria}"
+                               FontAttributes="Italic" 
+                               VerticalOptions="End"/>
+                            </Grid>
+                        </StackLayout>
+                    </SwipeView>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+
+</ContentPage>
