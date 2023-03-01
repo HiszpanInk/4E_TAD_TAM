@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="bazyDanych_01_03_2023.MainPage">
+
+    <StackLayout>
+        <SearchBar Placeholder="Search Employee" VerticalOptions="Start" x:Name="searchbar"
+                   TextChanged="SearchBar_TextChanged" />
+        <StackLayout Orientation="Horizontal">
+            <Entry Placeholder="Name" x:Name="nameEntry" TextTransform="Uppercase" />
+            <Entry Placeholder="Adres" x:Name="adressEntry" />
+            <Button Text="Zapisz" x:Name="btn" Clicked="Button_Clicked"/>
+        </StackLayout>
+        <CollectionView x:Name="myCollectionView"
+                        Margin="10">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <SwipeView>
+                        <SwipeView.RightItems>
+                            <SwipeItems Mode="Execute">
+                                <SwipeItem Text="Delete" Invoked="SwipeItem_Invoked" BackgroundColor="Red" CommandParameter="{Binding .}"></SwipeItem>
+                            </SwipeItems>
+                        </SwipeView.RightItems>
+                        <SwipeView.LeftItems>
+                            <SwipeItems>
+                                <SwipeItem Text="Edit" Invoked="SwipeItem_Invoked_1" BackgroundColor="Yellow" CommandParameter="{Binding .}"></SwipeItem>
+                            </SwipeItems>
+                        </SwipeView.LeftItems>
+                        <Grid RowDefinitions="*,*" ColumnDefinitions="1*,5*">
+                            <Label Text="{Binding Id}"
+                                   Grid.Row="0" Grid.RowSpan="2" Grid.Column="0"
+                                   HorizontalOptions="CenterAndExpand"
+                                   VerticalOptions="CenterAndExpand" />
+                            <Label Text="{Binding Name}"
+                                   Grid.Row="0" Grid.Column="1"
+                                   FontSize="20" FontAttributes="Bold" />
+                            <Label Text="{Binding Adress}"
+                                   Grid.Row="1" Grid.Column="1"
+                                    />
+                        </Grid>
+                    </SwipeView>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+       
+    </StackLayout>
+
+</ContentPage>
