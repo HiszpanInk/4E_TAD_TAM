@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="todoAppDatabase.MainPage"
+>
+
+   
+        <StackLayout>
+        <Button Text="Add" VerticalOptions="Start" Clicked="Button_Clicked"/>
+        <Grid RowDefinitions="*,*" ColumnDefinitions="*">
+            <CollectionView Grid.Column="0" Grid.Row="0" x:Name="viewWithDate">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <SwipeView>
+                            <SwipeView.RightItems>
+                                <SwipeItems Mode="Execute">
+                                    <SwipeItem Text="Delete" Invoked="SwipeItem_Invoked" BackgroundColor="Red" CommandParameter="{Binding .}"></SwipeItem>
+                                </SwipeItems>
+                            </SwipeView.RightItems>
+                            <SwipeView.LeftItems>
+                                <SwipeItems>
+                                    <SwipeItem Text="Edit" Invoked="SwipeItem_Invoked_1" BackgroundColor="Yellow" CommandParameter="{Binding .}"></SwipeItem>
+                                </SwipeItems>
+                            </SwipeView.LeftItems>
+                            <Grid>
+                                <Label Text="{Binding EntryContent}" HorizontalTextAlignment="Center" FontSize="Large"/>
+                            </Grid>
+                        </SwipeView>
+
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+
+            <CollectionView Grid.Column="0" Grid.Row="1" x:Name="viewWithoutDate" VerticalOptions="End">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <SwipeView>
+                            <SwipeView.RightItems>
+                                <SwipeItems Mode="Execute">
+                                    <SwipeItem Text="Delete" Invoked="SwipeItem_Invoked" BackgroundColor="Red" CommandParameter="{Binding .}"></SwipeItem>
+                                </SwipeItems>
+                            </SwipeView.RightItems>
+                            <SwipeView.LeftItems>
+                                <SwipeItems>
+                                    <SwipeItem Text="Edit" Invoked="SwipeItem_Invoked_1" BackgroundColor="Yellow" CommandParameter="{Binding .}"></SwipeItem>
+                                </SwipeItems>
+                            </SwipeView.LeftItems>
+                            <Grid>
+                                <Label Text="{Binding EntryContent}" HorizontalTextAlignment="Center" FontSize="Large"/>
+                            </Grid>
+                        </SwipeView>
+
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </Grid>
+        
+        </StackLayout>
+
+
+</ContentPage>

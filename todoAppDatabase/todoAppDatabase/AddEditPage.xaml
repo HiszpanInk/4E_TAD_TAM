@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="todoAppDatabase.AddEditPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Editor x:Name="contentInput" HeightRequest="300"/>
+            <DatePicker x:Name="dateInput" Format="dd/MM/yyyy"/>
+            <CheckBox IsChecked="False" x:Name="noDate" CheckedChanged="noDate_CheckedChanged" />
+            <Label Text="Czy bez daty"/>
+            <RadioButton Content="Niski priorytet" IsChecked="True" x:Name="lowPriority" CheckedChanged="RadioButton_CheckedChanged"/>
+            <RadioButton Content="Średni priorytet" x:Name="mediumPriority" CheckedChanged="RadioButton_CheckedChanged"/>
+            <RadioButton Content="Wysoki priorytet" x:Name="highPriority" CheckedChanged="RadioButton_CheckedChanged"/>
+            
+            <Button Text="" x:Name="btn" />
+        </StackLayout>
+ 
+    </ContentPage.Content>
+</ContentPage>

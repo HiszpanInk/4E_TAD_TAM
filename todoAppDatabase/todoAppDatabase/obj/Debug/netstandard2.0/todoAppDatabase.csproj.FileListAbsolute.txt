@@ -1,0 +1,16 @@
+C:\Users\szaconw\source\repos\todoAppDatabase\todoAppDatabase\bin\Debug\netstandard2.0\todoAppDatabase.deps.json
+C:\Users\szaconw\source\repos\todoAppDatabase\todoAppDatabase\bin\Debug\netstandard2.0\todoAppDatabase.dll
+C:\Users\szaconw\source\repos\todoAppDatabase\todoAppDatabase\bin\Debug\netstandard2.0\todoAppDatabase.pdb
+C:\Users\szaconw\source\repos\todoAppDatabase\todoAppDatabase\obj\Debug\netstandard2.0\todoAppDatabase.csproj.AssemblyReference.cache
+C:\Users\szaconw\source\repos\todoAppDatabase\todoAppDatabase\obj\Debug\netstandard2.0\todoAppDatabase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\szaconw\source\repos\todoAppDatabase\todoAppDatabase\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\szaconw\source\repos\todoAppDatabase\todoAppDatabase\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\szaconw\source\repos\todoAppDatabase\todoAppDatabase\obj\Debug\netstandard2.0\todoAppDatabase.AssemblyInfoInputs.cache
+C:\Users\szaconw\source\repos\todoAppDatabase\todoAppDatabase\obj\Debug\netstandard2.0\todoAppDatabase.AssemblyInfo.cs
+C:\Users\szaconw\source\repos\todoAppDatabase\todoAppDatabase\obj\Debug\netstandard2.0\todoAppDatabase.csproj.CoreCompileInputs.cache
+C:\Users\szaconw\source\repos\todoAppDatabase\todoAppDatabase\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\szaconw\source\repos\todoAppDatabase\todoAppDatabase\obj\Debug\netstandard2.0\todoAppDatabase.dll
+C:\Users\szaconw\source\repos\todoAppDatabase\todoAppDatabase\obj\Debug\netstandard2.0\refint\todoAppDatabase.dll
+C:\Users\szaconw\source\repos\todoAppDatabase\todoAppDatabase\obj\Debug\netstandard2.0\todoAppDatabase.pdb
+C:\Users\szaconw\source\repos\todoAppDatabase\todoAppDatabase\obj\Debug\netstandard2.0\ref\todoAppDatabase.dll
+C:\Users\szaconw\source\repos\todoAppDatabase\todoAppDatabase\obj\Debug\netstandard2.0\AddEditPage.xaml.g.cs
