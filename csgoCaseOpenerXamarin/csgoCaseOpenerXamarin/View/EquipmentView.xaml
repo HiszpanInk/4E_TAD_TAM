@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="csgoCaseOpenerXamarin.View.EquipmentView">
+    <ContentPage.Content>
+        <StackLayout>
+            <CollectionView x:Name="myCollection" BackgroundColor="White">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout  BackgroundColor="DarkGray">
+                            <StackLayout Orientation="Horizontal"   Margin="10, 0, 10, 0" VerticalOptions="Center" >
+                                <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                                    <Label Text="{Binding Name}" FontSize="Large"></Label>
+                                    <Label Text="{Binding Price}" HorizontalOptions="Center" FontAttributes="Bold"></Label>
+                                </StackLayout>
+
+                                <Image Source="{Binding Link}"></Image>
+                                
+                            </StackLayout>
+                            <Button Text="Sprzedaj" CommandParameter="{Binding Id}" Clicked="Button_Clicked"/>
+                            <Frame HeightRequest="20" BackgroundColor="White"/>
+                        </StackLayout>
+                        
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

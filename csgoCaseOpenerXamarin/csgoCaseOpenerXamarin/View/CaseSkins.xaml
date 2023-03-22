@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:csgoCaseOpenerXamarin.Converters"
+             x:Class="csgoCaseOpenerXamarin.View.CaseSkins"
+             Title="Przegląd skrzynki">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:IdToColorConverter x:Key="idColor"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Image x:Name="caseImage"/>
+                    <Label x:Name="caseLabel" FontSize="Large" VerticalOptions="Center"/>
+                </StackLayout>
+            </Frame>
+            <ScrollView VerticalOptions="StartAndExpand">
+                <CollectionView x:Name="skinsCollection">
+                    <CollectionView.ItemsLayout>
+                        <GridItemsLayout Span="2" Orientation="Vertical"/>
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame Padding="4">
+                                <Frame Padding="50" BackgroundColor="{Binding Id_Color, Converter={StaticResource idColor}}">
+                                    <Frame CornerRadius="20">
+                                        <StackLayout>
+                                            <Image Source="{Binding Link}"/>
+                                            <Label Text="{Binding Name}"
+                                                    HorizontalOptions="CenterAndExpand"
+                                                    HorizontalTextAlignment="Center"
+                                                    FontSize="Subtitle"
+                                                    FontAttributes="Bold"/>
+                                            <Label Text="{Binding Price, StringFormat='{0}€'}"
+                                                    HorizontalOptions="CenterAndExpand"
+                                                    TextColor="White"/>
+                                        </StackLayout>
+                                    </Frame>
+                                </Frame>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

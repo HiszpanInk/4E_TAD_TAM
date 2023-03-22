@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="csgoCaseOpenerXamarin.MainPage"
+             NavigationPage.HasNavigationBar="False">
+
+    <AbsoluteLayout BackgroundColor="DeepSkyBlue">
+        <Frame AbsoluteLayout.LayoutBounds="0.5,0.1,0.5,0.16"
+               AbsoluteLayout.LayoutFlags="All">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer NumberOfTapsRequired="2" Tapped="TapGestureRecognizer_Tapped"/>
+            </Frame.GestureRecognizers>
+            <StackLayout>
+                <Label Text="Balance" FontSize="30" HorizontalOptions="CenterAndExpand"/>
+                <Label x:Name="bankrolllbl" FontSize="30" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+        </Frame>
+        <Frame AbsoluteLayout.LayoutBounds="0.5,0.5,300,300"
+               AbsoluteLayout.LayoutFlags="PositionProportional"
+               BackgroundColor="Yellow"
+               CornerRadius="150">
+            <Frame AbsoluteLayout.LayoutBounds="0.5,0.5,280,280"
+               AbsoluteLayout.LayoutFlags="PositionProportional"
+               BackgroundColor="LawnGreen"
+               CornerRadius="140">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="ButtonTapped"/>
+                </Frame.GestureRecognizers>
+                <Label Text="Buy Case" TextColor="White" FontSize="80" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
+            </Frame>
+        </Frame>
+        <StackLayout AbsoluteLayout.LayoutBounds="0.5,0.9,0.5,0.15"
+                     AbsoluteLayout.LayoutFlags="All">
+            <Button Text="EQUIPMENT"
+                    BorderColor="LawnGreen"
+                    BackgroundColor="White"
+                    Clicked="Button_Clicked_1"/>
+            <Button Text="TRANSACTION"
+                    BorderColor="LawnGreen"
+                    BackgroundColor="White"
+                    Clicked="Button_Clicked"/>
+        </StackLayout>
+    </AbsoluteLayout>
+</ContentPage>
