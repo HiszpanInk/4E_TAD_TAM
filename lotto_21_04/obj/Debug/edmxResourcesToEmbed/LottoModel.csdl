@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="lottoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="NewTable">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="liczba1" Type="Int32" />
+    <Property Name="liczba2" Type="Int32" />
+    <Property Name="liczba3" Type="Int32" />
+    <Property Name="liczba4" Type="Int32" />
+    <Property Name="liczba5" Type="Int32" />
+    <Property Name="liczba6" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="lottoEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="NewTables" EntityType="Self.NewTable" />
+  </EntityContainer>
+</Schema>

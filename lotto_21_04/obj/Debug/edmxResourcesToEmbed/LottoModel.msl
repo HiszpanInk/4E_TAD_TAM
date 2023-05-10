@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="lottoModelStoreContainer" CdmEntityContainer="lottoEntities">
+    <EntitySetMapping Name="NewTables">
+      <EntityTypeMapping TypeName="lottoModel.NewTable">
+        <MappingFragment StoreEntitySet="NewTable">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="liczba1" ColumnName="liczba1" />
+          <ScalarProperty Name="liczba2" ColumnName="liczba2" />
+          <ScalarProperty Name="liczba3" ColumnName="liczba3" />
+          <ScalarProperty Name="liczba4" ColumnName="liczba4" />
+          <ScalarProperty Name="liczba5" ColumnName="liczba5" />
+          <ScalarProperty Name="liczba6" ColumnName="liczba6" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="mvvm_1_marzec_2023.MainPage"
+             xmlns:viewmodel="clr-namespace:mvvm_1_marzec_2023.ViewModel"
+             x:DataType="viewmodel:MainViewModel"
+             xmlns:model="clr-namespace:mvvm_1_marzec_2023.Model">
+
+    <!-- 
+        <Label Text="{Binding LabelTxt}" />
+    <Entry Text="{Binding EntryValue}" />
+       <Button Text="Zatwierdź" Command="{Binding ChangeLabelCommand}"/>
+  -->
+    <StackLayout>
+        <Entry Text="{Binding EntryValue}"></Entry>
+        <Editor Text="{Binding EditorValue}"></Editor>
+        <Button Text="Dodaj zadanie" Command="{Binding AddCommand}"/>
+        <CollectionView ItemsSource="{Binding Zadania}" SelectionChangedCommand="{Binding ShowCommand}" SelectionMode="Single" SelectedItem="{Binding Zad}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="model:Zadanie">
+                    <StackLayout>
+                        <Label FontSize="Large" FontAttributes="Bold" Text="{Binding Temat}"></Label>
+                        <Label FontAttributes="Italic" Text="{Binding Opis}"></Label>
+                        
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+
+    </StackLayout>
+    
+
+</ContentPage>
