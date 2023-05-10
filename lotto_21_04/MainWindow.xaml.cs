@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,7 +20,7 @@ namespace lotto_21_04
     /// </summary>
     public partial class MainWindow : Window
     {
-        lottoEntities db = new lottoEntities();
+        lottoEntity db = new lottoEntity();
         public MainWindow()
         {
             InitializeComponent();
@@ -66,7 +66,7 @@ namespace lotto_21_04
                     liczba5 = liczba[4],
                     liczba6 = liczba[5],
                 };
-                db.NewTables.Add(newSet);
+                db.NewTable.Add(newSet);
 
             }
             db.SaveChanges();
@@ -77,40 +77,85 @@ namespace lotto_21_04
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             bool result = false;
-            List<NewTable> lista  = db.NewTables
-                .OrderByDescending(x => x.Id)
-                .Take(10)
-                .ToList();
-            int[] userInput = new int[6];
-            userInput[0] = int.Parse(input1.Text);
-            userInput[1] = int.Parse(input2.Text);
-            userInput[2] = int.Parse(input3.Text);
-            userInput[3] = int.Parse(input4.Text);
-            userInput[4] = int.Parse(input5.Text);
-            userInput[5] = int.Parse(input6.Text);
-            input1.Text = "";
-            input2.Text = "";
-            input3.Text = "";
-            input4.Text = "";
-            input5.Text = "";
-            input6.Text = "";
-            Array.Sort(userInput);
-            foreach (var set in lista)
+            int ileSprawdzic = 10;
+            if (inputIle.Text != "")
             {
-                if(userInput[0] == set.liczba1 && userInput[1] == set.liczba2 && userInput[2] == set.liczba3 && userInput[3] == set.liczba4 && userInput[4] == set.liczba5 && userInput[5] == set.liczba6)
-                {
-                    result = true;
-                    break;
-                }
-            }
-            if(result)
+                ileSprawdzic = int.Parse(inputIle.Text);
+            } 
+            
+
+            if(ileSprawdzic > db.NewTable.Count())
             {
-                wynik.Content = "Poprawny zestaw!";
+                MessageBox.Show("Zbyt mało zestawów w bazie");
             } else
             {
-                wynik.Content = "Niestety nie udało się zmieścić w zakresie toleracji";
-            }
+                List<NewTable> lista = db.NewTable
+                .OrderByDescending(x => x.Id)
+                .Take(ileSprawdzic)
+                .ToList();
+                int[] userInput = new int[6];
+                userInput[0] = int.Parse(input1.Text);
+                userInput[1] = int.Parse(input2.Text);
+                userInput[2] = int.Parse(input3.Text);
+                userInput[3] = int.Parse(input4.Text);
+                userInput[4] = int.Parse(input5.Text);
+                userInput[5] = int.Parse(input6.Text);
+                input1.Text = "";
+                input2.Text = "";
+                input3.Text = "";
+                input4.Text = "";
+                input5.Text = "";
+                input6.Text = "";
+                Array.Sort(userInput);
+                string output = "";
+                bool areInputsUnique = true;
+                for (int i = 0; i < 6; i++)
+                {
+                    for (int y = 0; y < 6; y++)
+                    {
+                        if (userInput[i] == userInput[y] && i != y)
+                        {
+                            areInputsUnique = false;
+                            output = "Wprowadzone liczby się powtarzają!";
+                        }
+                    }
+                }
+                if(areInputsUnique)
+                {
+                    List<int> userSet = new List<int>();
+                    userSet.Add(userInput[0]);
+                    userSet.Add(userInput[1]);
+                    userSet.Add(userInput[2]);
+                    userSet.Add(userInput[3]);
+                    userSet.Add(userInput[4]);
+                    userSet.Add(userInput[5]);
 
+                    foreach (var set in lista)
+                    {
+                        List<int> currentSet = new List<int>();
+                        currentSet.Add((int)set.liczba1);
+                        currentSet.Add((int)set.liczba2);
+                        currentSet.Add((int)set.liczba3);
+                        currentSet.Add((int)set.liczba4);
+                        currentSet.Add((int)set.liczba5);
+                        currentSet.Add((int)set.liczba6);
+                        int howMany = 0;
+                        foreach (var num in currentSet)
+                        {
+                            if (userSet.Contains(num))
+                            {
+                                howMany++;
+                            }
+                            Console.WriteLine(num);
+                        }
+                        output += $"zestaw ${set.Id} {howMany.ToString()} \n";
+
+
+                    }
+                }
+                MessageBox.Show(output);
+            }
+            
         }
     }
 }
