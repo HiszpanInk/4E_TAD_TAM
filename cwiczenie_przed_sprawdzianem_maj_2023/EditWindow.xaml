@@ -1,0 +1,20 @@
+﻿<Window x:Class="cwiczenie_przed_sprawdzianem_maj_2023.EditWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:cwiczenie_przed_sprawdzianem_maj_2023"
+        mc:Ignorable="d"
+        Title="EditWindow" Height="450" Width="800">
+    <StackPanel>
+        <Label Content="Imię" />
+        <TextBox x:Name="nameInput"></TextBox>
+        <Label Content="Nazwisko" />
+        <TextBox x:Name="surnameInput"></TextBox>
+        <Label Content="Wiek" />
+        <TextBox x:Name="ageInput"></TextBox>
+        <Label Content="Płeć input (M/K)" />
+        <TextBox x:Name="genderInput"></TextBox>
+        <Button Click="Button_Click" Content="Edytuj"/>
+    </StackPanel>
+</Window>
